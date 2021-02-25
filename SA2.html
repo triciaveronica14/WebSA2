@@ -1,0 +1,461 @@
+<html>
+   <head>
+       <title> AIRBNB </title>
+	   
+	   <style = “text/css”> 
+           
+			   html {
+				margin: 0;
+				padding: 0;}
+				
+			   body {background-color: #F5FFFA;
+					 font-family: helvetica;
+					 margin:0 auto;
+					 }
+				
+				
+				.a {
+				text-align: center;
+				text-color: black;
+				display: block;} 
+				
+				.logo {
+				float: left;}
+				
+				.boxforcontactinfo{
+				color: #FFFFFF;
+				float: right;
+				margin-right: 150px;
+				margin-top: -70px;}
+				
+				.contacticon{
+				height: 3%;
+				width:auto;
+				padding: 5px;
+				filter: brightness(0) invert(1);}
+				
+				h1 {
+				
+				font-size: 75px;
+				color: #FFFFFF;}
+				
+				h2 {
+				font-size:40px;
+				color:#FFFFFF;}
+				
+				h3 {
+				font-size: 20px;
+				color: #FFFFFF;
+				margin-top: -21px;
+				margin-left: 60px;
+				margin-bottom: 25px;
+				font-family: verdana;
+				opacity: 0.9;}
+				
+				h4 {
+				float: left;
+				font-size: 25px;
+				color: #00000;
+				padding: 10px 10px;
+				margin-top:-3px;
+				margin-left: 30px;}
+				
+				h5 {
+				float:right;
+				font-size: 12px;
+				color: #FFFFFF;}
+				
+				.pa {
+				float:left;
+				font-size: 10px;
+				color: #00000;
+				padding: 10px 10px;
+				margin-top:-50px;
+				margin-left: 30px;}
+				
+			   .mg-box1 {
+			   background-color: #303030;
+			   width: 100%;
+			   height: 90%;
+			   padding: 15px;}
+			   
+			   .topnav a {
+				float: left;
+				color: #f2f2f2;
+				padding: 10px 9px;
+				text-decoration: none;
+				font-size: 17px;
+				margin-left: 9px;}
+				
+				.topnav a:hover {
+				background-color: #ddd;
+				color: black;}
+				
+				/* Dropdown Button */
+				.dropbtn {
+				  background-color: #303030;
+				  color: white;
+				  padding: 16px;
+				  font-size: 16px;
+				  border: none;
+				}
+
+				/* The container <div> - needed to position the dropdown content */
+				.dropdown {
+				  float: left;
+				  margin-top: -5px;
+				  position: relative;
+				  display: inline-block;
+				}
+
+				/* Dropdown Content (Hidden by Default) */
+				.dropdown-content {
+				  display: none;
+				  position: absolute;
+				  background-color: #f1f1f1;
+				  min-width: 160px;
+				}
+
+				/* Links inside the dropdown */
+				.dropdown-content a {
+				  color: black;
+				  padding: 12px 16px;
+				  display: block;
+				}
+
+				/* Change color of dropdown links on hover */
+				.dropdown-content a:hover {background-color: #FF5A60;
+				}
+
+				/* Show the dropdown menu on hover */
+				.dropdown:hover .dropdown-content {display: block;
+				}
+
+				/* Change the background color of the dropdown button when the dropdown content is shown */
+				.dropdown:hover .dropbtn {
+				background-color: #ddd; 
+				color:black;}
+				
+				.navbutton {
+				float: left;
+				position: relative;
+				background-color: #303030;
+				color: white;
+				font-size: 16px;
+				padding: -10px;
+				border: none;
+				}
+				
+				.firstimg {
+				float: left;
+				width: 900px;
+				height: 500px;
+				padding-right: 40px;
+				margin-left: 10px;}
+				
+				.pad h1 {
+				padding: 10px;
+				margin-top: -20px;
+				}
+				
+				.pad h2 {
+				padding 10px;
+				margin-top: -70px;}
+				
+				.paragraph {
+				color: #FFFFFF;
+				text-align: justify;
+				text-justify: auto;
+				margin-right: 30px;}
+				
+				<!-- CALL TO ACTION-->
+				
+				.example_a {
+				text-transform: uppercase;
+				text-decoration: none;
+				padding: 30px;
+				border-radius: 5px;
+				display: block;
+				border: none;
+				transition: all 0.4s ease 0s;
+				text-decoration: none;
+
+				}
+								
+				.button {
+					display: inline-block;
+					text-align: center;
+					vertical-align: middle;
+					padding: 10px 28px;
+					border: 0px solid #cc484d;
+					border-radius: 10px;
+					background: #ff757d;
+					background: -webkit-gradient(linear, left top, left bottom, from(#ff757d), to(#cc484d));
+					background: -moz-linear-gradient(top, #ff757d, #cc484d);
+					background: linear-gradient(to bottom, #ff757d, #cc484d);
+					font: normal normal bold 15px arial;
+					color: #ffffff;
+					text-decoration: none;
+				}
+				.button:hover,
+				.button:focus {
+					border: 0px solid #ff5a60;
+					background: #ff8c96;
+					background: -webkit-gradient(linear, left top, left bottom, from(#ff8c96), to(#f5565c));
+					background: -moz-linear-gradient(top, #ff8c96, #f5565c);
+					background: linear-gradient(to bottom, #ff8c96, #f5565c);
+					color: #ffffff;
+					text-decoration: none;
+				}
+				.button:active {
+					background: #cc484d;
+					background: -webkit-gradient(linear, left top, left bottom, from(#cc484d), to(#cc484d));
+					background: -moz-linear-gradient(top, #cc484d, #cc484d);
+					background: linear-gradient(to bottom, #cc484d, #cc484d);
+				}
+	
+				.spimg {
+				float: left;
+				width: 30%;
+				height: 50%;
+				padding: 10 px;
+				margin-top:30px;
+				margin-left: 35px;
+				border-radius: 1em;}
+			
+				.under a:hover {
+				 border-bottom: 2px solid #000000;
+				 }
+				 
+				 .changecolor a:hover {
+				 color: #ff5a60;
+				 }
+				 
+				 .changecolor2 a:hover {
+				 color: #3b5998;
+				 }
+				 
+				 .changecolor3 a:hover {
+				 color: #00acee;
+				 }
+				 
+				 .changecolor4 a:hover {
+				 color:#dd2a7b;
+				 }
+				 
+				 .allright a {
+				 text-decoration: none;
+				 color: #000000;
+				 }
+				 
+				 .linky a {
+				 text-decoration: none;
+				 color: #ffffff;
+				 margin-bottom: 20px;
+				 }
+				
+				
+				.mg-box2{
+				 background-color: #F5F5F5;
+				 color: #000000;
+				 padding: 20px 10px;
+				 font-size: 14px;
+				 border: none;
+				 margin-top: 500px;
+				 width: 100%;
+				 }
+				 
+				 .alignm {
+				 float: right;
+				 margin-right: 250px;
+				 margin-top: -20px;
+				 width: 10%;
+				 height: 10%;}
+				 
+				  .alignm2 {
+				align: center;
+				 margin-right: 250px;
+				 margin-top: -20px;
+				 width: 10%;
+				 height: 10%;}
+				 
+				 .zoom {
+				  transition: transform .1s; /* Animation */
+				  
+				}
+
+				.zoom:hover {
+				  transform: scale(0.99); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+				  
+				}
+				 
+				 
+			
+			
+			
+			
+       </style>
+	   <!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/34c7347b0e.js" crossorigin="anonymous"></script>
+		
+	    </head>
+	   
+	   <body>
+		<br><br>
+			<div class ="mg-box1">
+				<img class = "logo" src = 'http://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png' alt = "Image Not Found" 
+					style = "width: 11%; height:"> <br><br><br><br>
+			
+			
+			
+			<div class ="boxforcontactinfo">
+				<img class = "contacticon" src ='https://www.flaticon.com/svg/vstatic/svg/1001/1001022.svg?token=exp=1614195859~hmac=fb053cd0b8efe31eeb8ff1805b5c8976' alt = "Image Not Found">
+				<h5 style ="margin-top: 8px; margin-right: 110px"> 123 Standford Avenue, Birmingham B354HE </h5><br>
+				
+				<img class = "contacticon" src ='https://www.flaticon.com/svg/vstatic/svg/1001/1001034.svg?token=exp=1614195824~hmac=f8e6be2e988e3ead06a883d662d539dd' alt = "Image Not Found" style ="margin-bottom: -10px">
+				<h5  style ="margin-top: -18px; margin-right: 280px"> (+8) 5300-8888 </h5><br>
+				<h5  style ="margin-top: -15px; margin-right: 260px"> (+63) 915 2715914 </h5><br>
+				
+				<img class = "contacticon" src ='https://www.flaticon.com/svg/vstatic/svg/561/561127.svg?token=exp=1614197356~hmac=b86e20b8e737f7d7782a9db99e21e894' alt = "Image Not Found">
+				<h5 style ="margin-top: -22px; margin-right: 245px"> cia.anto@gmail.com </h5><br>
+			</div>
+			
+			<h3> belong anywhere </h3>
+					
+		<!-- Navigation Bar -->
+			<div class = "topnav a:hover"> 
+				<div class ="topnav a">
+						
+						<button class ="navbutton"  > <a  href ='https://www.airbnb.com/' > Home </a> </button>
+						<button class ="navbutton" style ="margin-left:70px">  <a  class ="about" href ='https://news.airbnb.com/about-us/'> About </a> </button>
+						
+				
+						<div class="dropdown" style ="margin-left:75px">
+						  <button class="dropbtn" > Places to stay </button>
+						  <div class="dropdown-content">
+							<a href="https://www.airbnb.com/s/africa/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&source=structured_search_input_header&search_type=search_query">Africa</a>
+							<a href="https://www.airbnb.com/s/antartica/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&source=structured_search_input_header&search_type=search_query">Antartica</a>
+							<a href="https://www.airbnb.com/s/asia/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&source=structured_search_input_header&search_type=search_query">Asia</a>
+							<a href="https://www.airbnb.com/s/australia/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&source=structured_search_input_header&search_type=search_query">Australia</a>
+							<a href="https://www.airbnb.com/s/europe/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&source=structured_search_input_header&search_type=search_query">Europe </a>
+							<a href="https://www.airbnb.com/s/north-america/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&source=structured_search_input_header&search_type=search_query">North America</a>
+							<a href="https://www.airbnb.com/s/south-America/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&source=structured_search_input_header&search_type=search_query">South America</a>
+						  </div>
+						</div>
+						
+						<div class="dropdown" style ="	margin-left:75px">
+						  <button class="dropbtn">Experience</button>
+						  <div class="dropdown-content">
+							<a href="#location">Location</a>
+							<a href="#date">Date</a>
+						  </div>
+						</div>
+						
+						<button class ="navbutton" style ="margin-left:70px"> <a  href = "https://www.airbnb.com/s/experiences/online"> Online Experiences </a> </button>
+						<br><br><br>
+				</div>
+			</div>
+			
+			
+					<img class = "firstimg" src = "https://www.idesignarch.com/wp-content/uploads/Severn-Sound-Cottage-Modern-Lakeside-Home-Ontario-Canada_3.jpg" alt ="Image Not Found">
+				<div class = "pad h1">
+					<h1 style ="color: FF5A60"> Lorem ipsum </h1>
+				</div>
+				<div class = "pad h2">
+					<h2> dolor sit amet </h2>
+					<p class ="paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor morbi non arcu risus 
+					quis varius quam quisque. Adipiscing commodo elit at imperdiet dui accumsan sit. Montes nascetur ridiculus mus mauris vitae. Aenean pharetra magna ac placerat vestibulum lectus 
+					mauris ultrices. Ac placerat vestibulum lectus mauris ultrices eros. Turpis in eu mi bibendum neque egestas congue quisque egestas. Eget velit aliquet sagittis id consectetur. 
+					Pellentesque diam volutpat commodo sed egestas egestas. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Sapien pellentesque habitant morbi tristique senectus
+					et. In est ante in nibh mauris cursus. Tortor dignissim convallis aenean et. Vitae congue eu consequat ac felis donec et odio pellentesque. Auctor elit sed vulputate mi sit amet. 
+					Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. </p>
+					
+					<p style = "font-size:15px; color: #FFFFFF; margin-top: 10px; margin-bottom: -1px"> WHY TRY AIRBNB? </p>
+					
+					<div class ="changecolor">
+					<div class ="linky">
+					<a href = "https://inspiredbymaps.com/top-ten-reasons-to-try-airbnb/" style = "font-size:15px"> https://inspiredbymaps.com/top-ten-reasons-to-try-airbnb/ </a> </br>
+					<a href = "https://gobackpacking.com/reasons-to-rent-airbnb/" style = "font-size:15px">  https://gobackpacking.com/reasons-to-rent-airbnb/ </a> 
+					
+					</div>
+					</div>
+					<br>
+					<div class ="linky">
+					<div class ="button">
+					<br>
+					<div align="center" style ="margin-top:-20px"><a class="example_a" href="https://www.airbnb.com/" target="_blank" rel="nofollow noopener"> Book Now! </a></div>
+					</div>
+					</div>	
+					
+				</div>
+			</div> 
+			
+			<img class = "spimg" src = "https://i.pinimg.com/564x/af/48/18/af48184ecd0db9dd02080d07a254faed.jpg" alt ="Image Not Found">
+			<img class = "spimg" src = "https://i.pinimg.com/564x/85/72/4c/85724cb5bb1c709fe9226377b6205958.jpg" alt ="Image Not Found">
+			<img class = "spimg" src = "https://i.pinimg.com/564x/92/25/da/9225dadc6908eba7df0f90e101e69ffc.jpg" alt ="Image Not Found">
+			
+			<div class ="zoom">
+			<a href = "https://www.airbnb.com/s/homes?ne_lat=36.13927453041205&ne_lng=143.30664716404505&sw_lat=-6.9792745304120505&sw_lng=98.75335283595494&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=2&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" style = "color: black; font-size:10px;"> <h4>  Entire Home  </h4> </a>
+			</div>
+			
+			<div class ="zoom">
+			<a href = "https://www.airbnb.com/s/homes?refinement_paths%5B%5D=%2Fhomes%2Fsection%2FNEARBY_LISTINGS%3A2400&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=5&property_type_id%5B%5D=6&property_type_id%5B%5D=8&property_type_id%5B%5D=10&property_type_id%5B%5D=12&property_type_id%5B%5D=15&property_type_id%5B%5D=16&property_type_id%5B%5D=17&property_type_id%5B%5D=18&property_type_id%5B%5D=19&property_type_id%5B%5D=23&property_type_id%5B%5D=24&property_type_id%5B%5D=25&property_type_id%5B%5D=28&property_type_id%5B%5D=32&property_type_id%5B%5D=34&property_type_id%5B%5D=44&property_type_id%5B%5D=50&property_type_id%5B%5D=54&property_type_id%5B%5D=57&property_type_id%5B%5D=58&property_type_id%5B%5D=61&property_type_id%5B%5D=63&property_type_id%5B%5D=64&property_type_id%5B%5D=66&property_type_id%5B%5D=67&property_type_id%5B%5D=68&property_type_id%5B%5D=69&property_type_id%5B%5D=62&property_type_id%5B%5D=51&title_type=CURATED_PROPERTY_TYPE" style = "color: black"> <h4 style ="margin-left: 330px;">  Unique Stays </h4></a>
+			</div>
+			
+			<div class ="zoom">
+			<a href = "https://www.airbnb.com/s/homes?ne_lat=36.13927453041205&ne_lng=143.30664716404505&sw_lat=-6.9792745304120505&sw_lng=98.75335283595494&room_types%5B%5D=Entire%20home%2Fapt&property_type_id%5B%5D=4&property_type_id%5B%5D=22&property_type_id%5B%5D=60&search_type=NAVIGATION_CARD&title_type=CURATED_PROPERTY_TYPE" style = "color: black"> <h4 style ="margin-left: 320px;">  Cabins and cottages  </h4> </a>
+			</div>
+			
+			<p class ="pa">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua.</p>
+			<p class ="pa" style ="margin-left: 84px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua.</p>
+			<p class ="pa" style ="margin-left: 1030px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua.</p>
+		
+		
+		<div class ="mg-box2">
+				<br><br>
+				
+				
+				<div class ="changecolor4">
+				<div class ="alignm">
+					<a href ="https://instagram.com/airbnb"><i class="fab fa-instagram fa-2x" style ="margin-right: 10px"> </i></a>
+				</div>
+				</div>
+				
+				<div class ="changecolor3">
+				<div class ="alignm">
+					<a href ="https://twitter.com/airbnb"><i class="fab fa-twitter fa-2x" style ="margin-right: 10px">  </i></a>
+				</div>
+				</div>
+				
+				
+				<div class ="changecolor2">
+				<div class ="alignm">
+					
+					<a href ="https://www.facebook.com/airbnb"  ><i class="fab fa-facebook-f fa-2x" style ="margin-right: 10px">  </i></a>
+				</div>
+				</div>
+				
+				<br><br><br><br><br>
+	
+				<div class ="under">
+					<div class = "allright" align = "center">
+						<p style="display:inline" > © 2021 Airbnb, Inc. All rights reserved   · </p>
+						<p  class = "allright " style="display:inline"> <a href ="https://www.airbnb.com/terms/privacy_policy"> Privacy </a> ·  </p> 
+						<p style="display:inline">  <a href ="https://www.airbnb.com/terms"> Terms  </a> · </p> 
+						<p style="display:inline"> <a href ="https://www.airbnb.com/sitemaps/v2"> Site map </a> </p>
+					</div>
+				</div>
+				
+				<br>
+				<hr>
+				<p style = "font-size:12px; opacity:0.5; margin-bottom: -10px" align ="center"> DISCLAIMER: This website is for academic purposes only </p>
+		
+		</div>
+		
+		
+		
+	</body>
+</html>
+
+	
+    
